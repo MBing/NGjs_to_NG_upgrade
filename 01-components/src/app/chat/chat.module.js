@@ -1,5 +1,5 @@
 import angular from 'angular';
-import uiRouter from 'angular-ui-router';
+import uiRouter from '@uirouter/angularjs';
 import MatchWindowHeight from './shared/utilities/match-window-height.directive';
 
 import ChatPageComponent from './containers/chat-page/chat-page.component';
