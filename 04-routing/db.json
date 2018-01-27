@@ -1,0 +1,1208 @@
+{
+  "messages": [
+    {
+      "id": "db131141-4099-4e93-aca0-40a68ab4d871",
+      "sentAt": "2017-06-20T00:33:57.755Z",
+      "thread": {
+        "id": "046a668d-c6ca-42c9-ad19-053b426c468f",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "75d2d1d9-7977-4c07-a07d-f7a2122ea8db",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "48bc9abc-7057-4f39-bf1d-c00d39dbb9b1",
+      "sentAt": "2017-06-20T00:33:57.756Z",
+      "thread": {
+        "id": "b49c0a75-68d8-4b62-9f45-6f758a728657",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "d9dec485-bf48-4e07-8275-e35b037639da",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "4dbfc24a-aecc-4f83-854e-c68e1e5b00ff",
+      "sentAt": "2017-06-20T00:35:04.041Z",
+      "thread": {
+        "id": "2452ed62-def3-447f-9abd-bce8655c730a",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "6d337833-eb7e-4744-82ba-04a6596c7b0d",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "1ed2a9ee-de52-4a3e-a159-d5ee88043619",
+      "sentAt": "2017-06-20T00:35:04.043Z",
+      "thread": {
+        "id": "bd7422f1-fb0f-4bf3-a622-d3405f100e6c",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "a5ae3f6f-0373-4193-88fa-0cadd1a97271",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "ec06b2ae-a5f2-49b7-80ad-6679b876687c",
+      "sentAt": "2017-06-20T00:35:49.765Z",
+      "thread": {
+        "id": "faf628b8-0535-4066-9078-b10fc8df556d",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "c7812fe2-6ee4-4045-ba31-6e56382763e4",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "aa18ce57-69b8-47ba-8981-cf96fb5bcf93",
+      "sentAt": "2017-06-20T00:35:49.767Z",
+      "thread": {
+        "id": "3f2b22c4-78c2-4f7a-b53b-a9bfc3bae415",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "1a6f5f4e-6c82-4d10-bb1f-47378e892192",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "aea8b9a6-e981-4ca2-bb2e-31af00f265a9",
+      "sentAt": "2017-06-20T00:35:58.427Z",
+      "thread": {
+        "id": "63280eff-dddb-40cb-b49b-5967349759a9",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "e6a7ce3d-e44a-44ac-8223-d6d9e03fd5e7",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "a0190114-6e28-4a9d-af29-74844bd79455",
+      "sentAt": "2017-06-20T00:35:58.429Z",
+      "thread": {
+        "id": "37705917-a0d5-4ab1-86d9-8570950f1d8e",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "3cc46f0b-607e-4469-b79d-f53506e3f8ca",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "d404c42f-6d6d-438d-b2e7-a8c638a6d8bc",
+      "sentAt": "2017-06-22T00:36:13.173Z",
+      "thread": {
+        "id": "63280eff-dddb-40cb-b49b-5967349759a9",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1,
+        "messages": []
+      },
+      "author": {
+        "id": "534a6493-417f-4add-92ff-97e9e2cdb8f0",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "test"
+    },
+    {
+      "id": "9a83a9c5-57e1-4e53-92d9-c85c8b04b6b5",
+      "sentAt": "2017-06-20T00:36:43.740Z",
+      "thread": {
+        "id": "13d0a45d-62e4-4a5e-88e3-47aaf2e29f7c",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "e5115af4-56a3-46fa-b2df-018bb23376b0",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "f154b232-70df-4f95-8787-6f642fb931d3",
+      "sentAt": "2017-06-20T00:36:43.742Z",
+      "thread": {
+        "id": "08081e87-36b4-4591-b171-58efa9c789ff",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "64a19265-49a1-40be-8a4e-08235150f67c",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "31153f92-f4a4-4256-9243-0615bce5bc3e",
+      "sentAt": "2017-06-20T00:37:02.244Z",
+      "thread": {
+        "id": "30ec2978-b24e-4e52-b6f5-b2d2feda3673",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "88e9107a-44cf-4d11-8763-2c5173e2ed66",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "82f81fa5-963c-43e3-a6e3-75661776d66f",
+      "sentAt": "2017-06-20T00:37:02.246Z",
+      "thread": {
+        "id": "96f21390-8f5d-4dd0-876c-a8f2fddff175",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "00f393e0-34bc-4e90-b1e9-13036c015346",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "f44b2b6f-7c63-4b53-b881-5a0ddc8d1ac1",
+      "sentAt": "2017-06-20T00:39:19.635Z",
+      "thread": {
+        "id": "f76983d5-93b4-4392-8b4f-1eacc5f2bad8",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "0e560b76-8c87-4989-8eff-b0c886146f31",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "a3ecbb2e-2103-4f71-9657-4974bbc7f113",
+      "sentAt": "2017-06-20T00:39:19.637Z",
+      "thread": {
+        "id": "a93551d6-fc4b-46f3-957f-b28fc7599161",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "16a18b9b-b1b2-44ff-8eb3-1c7e2401e3ec",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "99a56831-a9a0-4661-a0b3-8df44030b436",
+      "sentAt": "2017-06-20T00:39:57.889Z",
+      "thread": {
+        "id": "aa3942f4-3020-47f8-a9b4-9d3a9a08c308",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "c7d9b16b-2bd6-44bf-8909-4a7dcd7d11fb",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "7092cc94-314f-486e-b887-ade094281a31",
+      "sentAt": "2017-06-20T00:39:57.891Z",
+      "thread": {
+        "id": "6bb7b5ce-ec4e-47a5-b182-7079bd5dd124",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "0e47fea7-624f-4e76-b8db-4c71ceed29ab",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "2ba2d167-c118-48a4-806b-9d2feed301cc",
+      "sentAt": "2017-06-20T00:40:20.510Z",
+      "thread": {
+        "id": "729a7e9d-c858-4e7d-be93-ec8dc488d8c8",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "48c13c66-3e63-4432-af5f-611acf84127e",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "2168bc94-48ed-498f-940b-c7dc0aacd946",
+      "sentAt": "2017-06-20T00:40:20.512Z",
+      "thread": {
+        "id": "8e497fb4-07a8-415b-9dab-a6a6df437a7d",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "0332fc87-0c98-42ed-8c9a-c8422165878d",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "f68f6734-7215-436e-a9e9-cccc4511ce72",
+      "sentAt": "2017-06-20T00:40:26.251Z",
+      "thread": {
+        "id": "252b4545-63fc-4f5c-8c35-e9e571977d0e",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "ef5da93f-c4d6-4462-af1e-56d98b548276",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "f8543efd-8742-43cb-ab36-ce6fe7400d8c",
+      "sentAt": "2017-06-20T00:40:26.252Z",
+      "thread": {
+        "id": "802d2c97-b655-4952-86a6-4ae2e215e388",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "68fb0f3a-5d3d-4ba9-aa51-46f53e5b4adf",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "eea9497b-7f47-443c-a74c-7a496297d060",
+      "sentAt": "2017-06-20T00:40:47.197Z",
+      "thread": {
+        "id": "69899f59-f722-4e44-91ec-4a0fa58ece24",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "c6efc953-43d3-4480-b753-bb7591680d5c",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "b15f72cb-8598-4080-b2cd-86aafc5da65f",
+      "sentAt": "2017-06-20T00:40:47.200Z",
+      "thread": {
+        "id": "4622bf90-16b5-4037-a90a-29de0a3e1004",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "3907f5f5-7593-4acf-bcf6-544284e99008",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "7b8ca0a2-2845-48c6-8d14-adda8d9c111f",
+      "sentAt": "2017-06-20T00:43:05.968Z",
+      "thread": {
+        "id": "a6c2916d-a4d2-45c8-964c-3ed879b2cedd",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "275ccc9d-6c8a-4377-b1f8-0e2b8300da1c",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "3da5a95b-c4ad-458f-ae4b-ad67b82d4b3b",
+      "sentAt": "2017-06-20T00:43:05.970Z",
+      "thread": {
+        "id": "c5c924e3-6f13-47c8-8f45-78c36858d57a",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "3ad264b8-c236-40e2-a716-ed8dfdbc09ef",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "c6d72b57-9dda-4d99-869a-156f4b375017",
+      "sentAt": "2017-06-20T00:43:50.693Z",
+      "thread": {
+        "id": "42c05c2c-851a-48a0-9a00-96c714108d11",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "e39ca5b2-86fd-4a84-830d-ac5f8bb5b6d8",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "d814e88a-90c9-4a05-b1c9-dcfbaf3fc346",
+      "sentAt": "2017-06-20T00:43:50.694Z",
+      "thread": {
+        "id": "134fc8bc-94be-41f2-82cb-10ae791e0119",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "6b4591e1-f8cc-41ac-90fa-0fb53bc26f0e",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "725c9fa5-de53-485e-8196-dd174dafaad1",
+      "sentAt": "2017-06-20T00:44:10.045Z",
+      "thread": {
+        "id": "51219745-2032-424c-b847-4f358f9222b7",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "19442f18-3f1c-49e6-ac27-20172e6de816",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "743be277-54c0-425d-89b1-9c7c0a67d260",
+      "sentAt": "2017-06-20T00:44:10.047Z",
+      "thread": {
+        "id": "5aa41053-ab06-4ca4-a66a-9d772c10eae2",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "fc8edb25-612e-4ba2-9cfc-e3ed197d29c2",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "6abadb20-7ee8-44a5-8dd3-f08e9f6652e8",
+      "sentAt": "2017-06-20T00:45:10.225Z",
+      "thread": {
+        "id": "b7b3aba0-736a-4d30-b056-ea68f4ec07da",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "8cf56958-6d4f-4068-b6ac-35a494b29e18",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "a6cd8c12-e598-4c3d-9f30-111d2b8afa32",
+      "sentAt": "2017-06-20T00:45:10.226Z",
+      "thread": {
+        "id": "648e1c40-cf2a-455c-8c76-3c71d2109a38",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "213d1cac-7b0d-44ce-a64e-90b021105008",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "938d462b-9a1d-4f8b-981d-c8eca706b3b7",
+      "sentAt": "2017-06-22T00:45:23.264Z",
+      "thread": {
+        "id": "b7b3aba0-736a-4d30-b056-ea68f4ec07da",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1,
+        "messages": []
+      },
+      "author": {
+        "id": "199637a1-e924-4c3b-b082-19e60aa95038",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "r"
+    },
+    {
+      "id": "0ad684a3-be65-4c58-91dc-869062fb0959",
+      "sentAt": "2017-06-20T00:45:30.405Z",
+      "thread": {
+        "id": "73677997-e6b9-4d2b-85c1-3c659386c7b3",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "71490044-c014-4f3e-af2d-745133161bbf",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "a3a4a17d-729c-44bf-8526-45c44c2ed2ca",
+      "sentAt": "2017-06-20T00:45:30.407Z",
+      "thread": {
+        "id": "f1589c44-dd65-457e-b724-d91afbeabbf8",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "81923dc8-6a5f-42e7-9299-5961a98d9602",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "38de701a-94ab-41dc-8720-17d4df0ca0b0",
+      "sentAt": "2017-06-22T00:45:33.802Z",
+      "thread": {
+        "id": "73677997-e6b9-4d2b-85c1-3c659386c7b3",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1,
+        "messages": []
+      },
+      "author": {
+        "id": "fc2a464e-53fd-47c9-a36f-9b5421f6d2bc",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "test"
+    },
+    {
+      "id": "f84574c0-be95-40f3-a41a-d17f9b5365df",
+      "sentAt": "2017-06-20T00:46:44.007Z",
+      "thread": {
+        "id": "7aea0664-457e-4153-a143-401c6c777845",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "da1b94ae-3938-4e58-9841-e170ee8c6266",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "08330f19-14ef-4e9a-9035-9551289418c2",
+      "sentAt": "2017-06-20T00:46:56.469Z",
+      "thread": {
+        "id": "cfdbe0ab-b6ac-41a6-90b3-5d7597716e0f",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "301a7bb8-6e68-46db-ac9b-d6d1c1e921a9",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "f919e933-5885-47cb-a7eb-b39cdea9e3f0",
+      "sentAt": "2017-06-20T00:46:56.470Z",
+      "thread": {
+        "id": "24e95820-5809-4e8c-87b1-46b26395727a",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "417ea017-b5df-4c37-a03d-6c96e9159bc0",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "dbb89c5e-17e2-4bdc-84d4-b9675a9cf0bb",
+      "sentAt": "2017-06-20T00:51:12.523Z",
+      "thread": {
+        "id": "1dfe78e0-d4a6-4c2c-bc59-3f54c83a6a10",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "4dc5be72-ab45-4312-a528-59681f37cb2d",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "a56c5d96-97c7-4acc-ae20-092d30f82ae0",
+      "sentAt": "2017-06-20T00:51:12.525Z",
+      "thread": {
+        "id": "11bd5790-3de1-4024-a933-3059f7aa6e76",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "259b0e2e-a45d-4ef9-a881-aba6c3eb4cf1",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "0a9fbf4b-86c9-49ae-b40c-fa77919017e6",
+      "sentAt": "2017-06-22T00:51:26.230Z",
+      "author": {
+        "id": "7b6a6bfa-2e15-4d5a-b19c-c3f798cd44fe",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "r"
+    },
+    {
+      "id": "79c47d62-e78b-4e70-bb1e-ecc9169be70b",
+      "sentAt": "2017-06-20T00:51:52.557Z",
+      "thread": {
+        "id": "837bbaf2-edf1-409e-b322-89ba3a7437fb",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "e7ddaa8b-edab-4390-9e1b-accf75a8f92b",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "6803e257-d199-4f58-97a5-a9480ab8d6a9",
+      "sentAt": "2017-06-20T00:51:52.558Z",
+      "thread": {
+        "id": "4af86228-b705-4e0d-9aa9-28914d3e009a",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "b4141a39-319e-489d-acc6-5e379759381f",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "9732025f-62cf-484b-83bb-dbdd2d87f8cc",
+      "sentAt": "2017-06-20T00:52:28.714Z",
+      "thread": {
+        "id": "ba78b019-6bd7-4a64-9af5-beb294ed9860",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "48595e48-77c4-4de3-b007-25ba26718707",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "777c9321-b5f4-49a3-a926-68afea4e39ba",
+      "sentAt": "2017-06-20T00:52:28.716Z",
+      "thread": {
+        "id": "36534993-2a71-497a-84e4-16aee8c53a24",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "f9dfb548-4d33-4f13-ad38-58f3a1a8fb55",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "dafa6871-2223-4e80-8760-69917385c1d4",
+      "sentAt": "2017-06-20T00:53:37.479Z",
+      "thread": {
+        "id": "6992137e-d38f-4792-b126-66052f8ca83f",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "72df1696-b1ad-478a-9743-92735d5e1a1d",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "8bb7958f-52de-4e2a-821e-829d64c0796e",
+      "sentAt": "2017-06-20T00:53:37.480Z",
+      "thread": {
+        "id": "4158eda2-acec-4413-95e5-3d344a7a0593",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "9f2b2126-1ac2-4a3f-905e-21e8d6e3bc5f",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "0d4292e2-67e9-45e7-89fd-23f24b24f5e5",
+      "sentAt": "2017-06-20T00:53:49.652Z",
+      "thread": {
+        "id": "7366c1c7-5580-4f86-bcf0-390855cb5683",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "d000ea8e-bbc4-4680-a25f-1fb4a5cb2cad",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "89f0fdc2-5057-4c6d-869d-1f85bfc6c1a0",
+      "sentAt": "2017-06-20T00:53:49.654Z",
+      "thread": {
+        "id": "84ac656d-7815-4e03-99ce-9c29affb7039",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "c11ca1e8-b80b-44da-a8a9-782058fe34c2",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "376ab469-5be4-46c8-94d1-fc6c6bdd0c87",
+      "sentAt": "2017-06-20T00:57:02.389Z",
+      "thread": {
+        "id": "04ba12f4-2d92-4c1f-baa9-01f389eb78a6",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "66073cdd-eadc-4687-9e2c-9626c84e7b68",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "ff8acc45-bbc7-41d1-bc9f-c397a7dbd499",
+      "sentAt": "2017-06-20T00:57:02.391Z",
+      "thread": {
+        "id": "f547f626-c079-4ca9-9089-cfb9edfe35f0",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "2bbbc67c-343a-49ac-9d8f-f8b8099da95c",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "d6364194-00ac-4489-b479-0ac4233fd236",
+      "sentAt": "2017-06-20T00:57:32.759Z",
+      "thread": {
+        "id": "7d32b6d4-ff80-482c-af63-342bc51c8469",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "ee995f6b-ae06-433e-a3be-a9b7fcaec10a",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "ac0cdfaf-b61c-4cd4-b988-b8fa9e6bfe9c",
+      "sentAt": "2017-06-20T00:57:32.760Z",
+      "thread": {
+        "id": "4c6c9f7a-4253-4081-ab9a-6f1503707f45",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "1441212c-db0f-4a68-902a-ad42266f2e4e",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "03669c5a-78f3-4819-9312-099962761a7a",
+      "sentAt": "2017-06-20T00:57:37.119Z",
+      "thread": {
+        "id": "7575f9e7-60bd-460c-8728-35c2d54d718d",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "e5c7b6a5-6711-468f-90b0-8a4f7b5d530d",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "62c94775-b6ee-4922-94d0-983122d18e6a",
+      "sentAt": "2017-06-20T00:57:37.120Z",
+      "thread": {
+        "id": "62df4e2e-7dd6-4fc7-8e12-38b845770a1a",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "4f37b168-d736-4cb7-a1ca-cce3dd1897b4",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "8dda3e26-57fb-4446-b172-5d12ec54eb5c",
+      "sentAt": "2017-06-20T00:57:46.215Z",
+      "thread": {
+        "id": "62fc8df5-47cc-47d8-9b1c-a4476405656c",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "6d45e811-3235-4f81-89e9-49c4083435d6",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "b9a41c7e-fb64-4ee7-8e0e-7c4b09d0623f",
+      "sentAt": "2017-06-20T00:57:46.217Z",
+      "thread": {
+        "id": "a5b0855d-4a35-4154-b1b1-a7a52778822f",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "f28de7f7-47f6-4529-86c0-f1daec92976d",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "1da8c31d-ff15-4992-b01b-c776459c2997",
+      "sentAt": "2017-06-20T00:58:14.704Z",
+      "thread": {
+        "id": "f2a530b0-0b8c-4347-8d62-3f713e89e878",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "025d1426-4317-47a4-b27b-00e9976117f9",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "7d864590-381e-41ad-bcda-1aa16efdb41a",
+      "sentAt": "2017-06-20T00:58:14.706Z",
+      "thread": {
+        "id": "f36db09e-b908-40e1-837a-78355557f611",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "fca05dc7-a6be-4ebc-a6c3-36f9fe964faf",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "669d265e-75c0-4b56-abb7-01d051453cf8",
+      "sentAt": "2017-06-22T00:58:19.724Z",
+      "thread": {
+        "id": "f2a530b0-0b8c-4347-8d62-3f713e89e878",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1,
+        "messages": []
+      },
+      "author": {
+        "id": "ac6279e8-0378-476c-8a5f-ccbe2f07a717",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "nice"
+    },
+    {
+      "id": "cb589765-8b62-424c-a82b-e6bbed6033d0",
+      "sentAt": "2017-06-20T00:59:14.958Z",
+      "thread": {
+        "id": "fbcae8ad-cdd8-4025-88b7-7f92e6a8fd3f",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "51fe75c8-e7a1-47fe-ae59-188f3c1a9d63",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "41e2dc9c-be17-4303-918e-759833cf2ead",
+      "sentAt": "2017-06-20T00:59:14.960Z",
+      "thread": {
+        "id": "498ae3ee-216f-4fd4-8f67-5ed9c04ba54e",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "0d99581c-4418-4a0d-88f8-943892e9ca4b",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "6a5a62f0-04be-4812-9e06-954793200772",
+      "sentAt": "2017-06-22T00:59:45.947Z",
+      "thread": {
+        "id": "498ae3ee-216f-4fd4-8f67-5ed9c04ba54e",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1,
+        "messages": []
+      },
+      "author": {
+        "id": "b5d1d6cc-18e1-47d6-aa39-7fed41222085",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "why"
+    },
+    {
+      "id": "3578df51-ddd3-4732-b4f7-45e8f3d40416",
+      "sentAt": "2017-06-22T01:03:02.287Z",
+      "thread": {
+        "id": "498ae3ee-216f-4fd4-8f67-5ed9c04ba54e",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1,
+        "messages": [
+          {
+            "id": "6a5a62f0-04be-4812-9e06-954793200772",
+            "sentAt": "2017-06-22T00:59:45.947Z",
+            "thread": {
+              "id": "498ae3ee-216f-4fd4-8f67-5ed9c04ba54e",
+              "name": "universal",
+              "type": "channel",
+              "unreadCount": 1,
+              "messages": []
+            },
+            "author": {
+              "id": "b5d1d6cc-18e1-47d6-aa39-7fed41222085",
+              "isClient": true,
+              "name": "eigenjoy"
+            },
+            "text": "why",
+            "isRead": true
+          }
+        ]
+      },
+      "author": {
+        "id": "b5d1d6cc-18e1-47d6-aa39-7fed41222085",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "Wowow"
+    },
+    {
+      "id": "b1555931-e331-4c6f-9243-32d96db0f4d5",
+      "sentAt": "2017-06-20T17:53:25.800Z",
+      "thread": {
+        "id": "17c43f90-dc62-4d5c-a11d-7fce7bad7cc9",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "228d8ebc-228b-4a12-bc1d-e542060fa17d",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "0762f38c-f4b3-416a-a2ae-4bf1b441ca10",
+      "sentAt": "2017-06-20T17:53:25.802Z",
+      "thread": {
+        "id": "7106ff5f-65b8-4bc0-b414-9c55590d3536",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "8ffd2bed-b740-4026-baf2-b2d11e94fa9f",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "08914eb0-0fb0-4ecb-b809-349b3e288f86",
+      "sentAt": "2017-06-20T17:53:40.467Z",
+      "thread": {
+        "id": "c4fd7062-5d54-49bb-aefa-332be52a3635",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "bebbf5a5-f812-4203-9cdb-262d8d78039f",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "274e7d98-9abf-474f-bdcf-1dbd8986f2d8",
+      "sentAt": "2017-06-20T17:53:40.469Z",
+      "thread": {
+        "id": "e6379109-1eb5-4c4a-bf0b-b327bcc3f6a6",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "06dba1a5-3833-43d4-99ff-0a2c6058cdc5",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "4c8bb8f7-cc95-4068-8976-fe74c6c7330b",
+      "sentAt": "2017-06-22T17:53:46.437Z",
+      "thread": {
+        "id": "c4fd7062-5d54-49bb-aefa-332be52a3635",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1,
+        "messages": []
+      },
+      "author": {
+        "id": "8e95b7f2-3a7f-493e-974c-6f8a45f65254",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "Hi :)"
+    },
+    {
+      "id": "ad019f94-9420-4455-b938-ede9c3d105cf",
+      "sentAt": "2017-06-22T17:53:55.182Z",
+      "thread": {
+        "id": "b3220456-bae4-4eee-bf9d-658e03eaace6",
+        "name": "toddmotto",
+        "type": "dm",
+        "unreadCount": 0,
+        "messages": []
+      },
+      "author": {
+        "id": "8e95b7f2-3a7f-493e-974c-6f8a45f65254",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "Nice"
+    },
+    {
+      "id": "509afb5a-80b4-4dce-b6ee-c8d9d8ea2dc1",
+      "sentAt": "2017-06-20T17:59:48.731Z",
+      "thread": {
+        "id": "f25e7586-d805-42a4-b732-66882a0280c9",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "ebecd5a8-900d-4222-b0c0-49e5f98bc168",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "d7c4fe7a-5637-4f7e-8463-367e67d16e7b",
+      "sentAt": "2017-06-20T17:59:48.733Z",
+      "thread": {
+        "id": "1448c889-f0dd-46a2-9dea-be32ddb4b504",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "3f0fd280-b8a5-4c85-9bd5-d633e6b0860c",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "8ac23731-5123-4274-a83a-b8f6cd147aff",
+      "sentAt": "2017-06-20T18:00:06.912Z",
+      "thread": {
+        "id": "e617c36a-8f56-4f5b-ba1e-6d522f168db6",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "cd69ebd2-298c-4e9e-acb5-043ac958767d",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "989e4fd6-3bbd-4243-a24e-4cf98f19dbdc",
+      "sentAt": "2017-06-20T18:00:06.915Z",
+      "thread": {
+        "id": "dc649e2b-fca8-4817-8ab4-68a5d20272a3",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "95df9fce-2816-4ed5-808a-77bbb2e2dba8",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    },
+    {
+      "id": "40c902d8-5ebf-4fa3-8f70-809a4e161fda",
+      "sentAt": "2017-06-22T18:00:12.208Z",
+      "thread": {
+        "id": "e617c36a-8f56-4f5b-ba1e-6d522f168db6",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1,
+        "messages": []
+      },
+      "author": {
+        "id": "10ad114a-e61b-4a7a-85ab-15e43eda5d25",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "Test"
+    },
+    {
+      "id": "e2eaf24b-5eea-46f9-80e5-bf5d0092e27e",
+      "sentAt": "2017-06-22T18:00:22.849Z",
+      "thread": {
+        "id": "97605523-b592-4984-ac25-c6a61affd477",
+        "name": "toddmotto",
+        "type": "dm",
+        "unreadCount": 0,
+        "messages": []
+      },
+      "author": {
+        "id": "10ad114a-e61b-4a7a-85ab-15e43eda5d25",
+        "isClient": true,
+        "name": "eigenjoy"
+      },
+      "text": "Hi Todd"
+    },
+    {
+      "id": "2f5bc8e8-2555-4c2d-91c6-52270f37e9fc",
+      "sentAt": "2017-06-20T18:00:49.866Z",
+      "thread": {
+        "id": "656b711f-2ef0-49d9-b014-b1eb8deba3f5",
+        "name": "friends",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "4c7beb3b-019e-4dcd-8a97-6287069764a4",
+        "name": "auser"
+      },
+      "text": "Everything works asynchronously now :)"
+    },
+    {
+      "id": "004289c0-5c6e-48ed-a406-6f9a8f83bf3c",
+      "sentAt": "2017-06-20T18:00:49.868Z",
+      "thread": {
+        "id": "45f716e6-1232-4e39-975b-322512129da1",
+        "name": "universal",
+        "type": "channel",
+        "unreadCount": 1
+      },
+      "author": {
+        "id": "d0ecd771-3bf9-4e9c-8236-cd80da3883a1",
+        "name": "simpulton"
+      },
+      "text": "Yo this is awesome"
+    }
+  ]
+}
