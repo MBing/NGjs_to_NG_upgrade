@@ -73,6 +73,10 @@ const ChatPageComponent = {
     sendMessage(message) {
       console.log(message);
     }
+
+    threadSelected(message) {
+      this.activeThread = _.find( this.channels, { id: message.id });
+    }
   }
 };
 
