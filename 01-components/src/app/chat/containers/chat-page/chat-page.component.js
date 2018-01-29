@@ -32,6 +32,11 @@ const ChatPageComponent = {
               author: auser, 
               text: 'hey',  
               sentAt: new Date()
+            },
+            {
+              author: eigenjoy,
+              text: 'how are you',
+              sentAt: new Date()
             }
           ]
         },
