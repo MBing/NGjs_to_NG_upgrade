@@ -71,7 +71,12 @@ const ChatPageComponent = {
     }
 
     sendMessage(message) {
-      console.log(message);
+      console.log(this.activeThread);
+      this.activeThread.messages.push({
+          author: this.currentUser,
+          text: message,
+          sentAt: new Date(),
+      });
     }
 
     threadSelected(message) {
