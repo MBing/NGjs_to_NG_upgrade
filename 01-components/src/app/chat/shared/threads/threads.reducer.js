@@ -28,7 +28,6 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
                     }),
                 };
             }
-            break;
         case ADD_MESSAGE:
             {
                 const thread = payload.thread;
@@ -51,10 +50,27 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
                     }),
                 }
             }
-            break;
         case SELECT_THREAD:
-            {}
-            break;
+            {
+                const thread = payload.thread;
+                const oldThread = state.entities[thread.id];
+
+                const newMessages = (oldThread.messages || []).map(
+                    (message) => Object.assign({}, message, { isRead: true })
+                );
+
+                const newThread = Object.assign({}, oldThread, {
+                    messages: newMessages,
+                });
+
+                return {
+                    ids: state.ids,
+                    currentThreadId: thread.id,
+                    entities: Object.assign({}, state.entities, {
+                        [thread.id]: newThread,
+                    }),
+                };
+            }
         default:
             return state;
     }
