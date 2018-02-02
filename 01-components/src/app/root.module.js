@@ -7,6 +7,8 @@ import RootComponent from './root.component';
 import ChatModule from './chat/chat.module';
 import { default as DevTools, runDevTools } from './devTools';
 
+import { createSampleData } from '../../config/sampleData';
+
 /**
  * @ngdoc module
  * @name root
@@ -29,7 +31,8 @@ if (process.env.NODE_ENV === 'development') {
             $ngReduxProvider.createStoreWith(rootReducer,
                 [ createLogger() ], [ DevTools.instrument() ]);
         })
-        .run(runDevTools);
+        .run(runDevTools)
+        .run(createSampleData);
 } else {
     RootModule
         .config(/*@ngInject*/ ($ngReduxProvider) => {
