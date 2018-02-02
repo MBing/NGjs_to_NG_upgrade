@@ -1,76 +1,38 @@
 import template from './chat-page.html';
 
+import {
+    getChannels,
+    getDirectMessages,
+    getCurrentThread,
+} from '../../shared/threads/threads.selectors';
+
+import { getCurrentUser } from '../../shared/users/users.selectors';
+
 const ChatPageComponent = {
   bindings: {},
   templateUrl: template,
   controller: class ChatPageController {
     /* @ngInject */ 
-    constructor() {
-
-      const eigenjoy = {
-        id: 'eigenjoy',
-        isClient: true,
-        name: 'eigenjoy'
-      };
-      const auser = {
-        id: 'auser',
-        name: 'auser'
-      };
-
-      this.channels = [
-        {
-          id: 'angular',
-          name: 'angular',
-          type: 'channel',
-          messages: [
-            { 
-              author: eigenjoy, 
-              text: 'hi',  
-              sentAt: new Date()
-            },
-            { 
-              author: auser, 
-              text: 'hey',  
-              sentAt: new Date()
-            },
-            {
-              author: eigenjoy,
-              text: 'how are you',
-              sentAt: new Date()
-            }
-          ]
-        },
-        {
-          id: 'redux',
-          name: 'redux',
-          type: 'channel',
-          messages: [
-            { 
-              author: eigenjoy, 
-              text: 'Redux is cool',  
-              sentAt: new Date()
-            },
-            { 
-              author: auser, 
-              text: 'It really is!',  
-              sentAt: new Date()
-            }
-          ]
-        }
-      ];
-
-      this.directMessages = [{
-        id: 'auser',
-        name: 'auser',
-        type: 'dm',
-        messages: []
-      }];
-
-      this.activeThread = this.channels[0];
-      this.currentUser = eigenjoy;
+    constructor ($ngRedux) {
+        this.$ngRedux = $ngRedux;
+        // const unsubscribe = $ngRedux.connect(this.mapStateToThis, {})(this);
+        this.unsubscribe = $ngRedux.connect(this.mapStateToThis, {})(this);
     }
 
-    sendMessage(message) {
+    $onDestroy () {
+        this.unsubscribe();
+    }
+
+    mapStateToThis (state) {
+        return {
+            channels: getChannels(state),
+            directMessages: getDirectMessages(state),
+            activeThread: getCurrentThread(state),
+            currentUser: getCurrentUser(state),
+        };
+    }
+
+    sendMessage (message) {
       console.log(this.activeThread);
       this.activeThread.messages.push({
           author: this.currentUser,
@@ -79,7 +41,7 @@ const ChatPageComponent = {
       });
     }
 
-    threadSelected(message) {
+    threadSelected (message) {
       this.activeThread = _.find( this.channels, { id: message.id });
     }
   }
