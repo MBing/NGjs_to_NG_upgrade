@@ -1,10 +1,10 @@
 import moment from 'moment';
-import { setCurrentUser } from '../src/app/common/users/users.actions';
+import { setCurrentUser } from '../src/app/chat/shared/users/users.actions';
 import {
   addThread,
   addMessage,
   selectThread
-} from '../src/app/common/threads/threads.actions';
+} from '../src/app/chat/shared/threads/threads.actions';
 import _ from 'lodash';
 
 export /*@ngInject*/ function createSampleData($ngRedux) {

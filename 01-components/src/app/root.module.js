@@ -21,7 +21,7 @@ import { createSampleData } from '../../config/sampleData';
 const RootModule = angular
   .module('root', [
       ngRedux,
-    ChatModule.name,
+      ChatModule.name,
   ])
   .component('root', RootComponent);
 

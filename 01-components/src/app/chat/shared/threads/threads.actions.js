@@ -1,22 +1,22 @@
-import { uuid } from './utilities/util';
+import { uuid } from '../utilities/util';
 
 export const ADD_THREAD = 'ADD_THREAD';
 export const SELECT_THREAD = 'SELECT_THREAD';
 export const ADD_MESSAGE = 'ADD_MESSAGE';
 
-export const addThread = (thread) => {
+export const addThread = (thread) => ({
     type: ADD_THREAD,
     payload: {
         thread,
     },
-};
+});
 
-export const selectThread = (thread) => {
+export const selectThread = (thread) => ({
     type: SELECT_THREAD,
-        payload: {
+    payload: {
         thread,
     },
-};
+});
 
 export const addMessage = (thread, messageArgs) => {
     const defaults = {
