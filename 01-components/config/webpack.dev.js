@@ -9,7 +9,7 @@ const combineLoaders = require('webpack-combine-loaders');
 
 const ENV = process.env.ENV = process.env.NODE_ENV = 'development';
 const HOST = process.env.HOST || 'localhost';
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 module.exports = function(options) {
   return webpackMerge(commonConfig({

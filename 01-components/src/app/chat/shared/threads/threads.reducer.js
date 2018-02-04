@@ -2,9 +2,11 @@ import {
     ADD_THREAD,
     ADD_MESSAGE,
     SELECT_THREAD,
+    GET_MESSAGES_REQUEST,
 } from './threads.actions';
 
 const INITIAL_STATE = {
+    isFetching: false,
     ids: [],
     currentThreadId: null,
     entities: {},
@@ -21,6 +23,7 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
                 }
 
                 return {
+                    isFetching: false,
                     ids: [...state.ids, thread.id],
                     currentThreadId: state.currentThreadId,
                     entities: Object.assign({}, state.entities, {
@@ -43,6 +46,7 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
                 });
 
                 return {
+                    isFetching: false,
                     ids: state.ids,
                     currentThreadId: state.currentThreadId,
                     entities: Object.assign({}, state.entities, {
@@ -55,15 +59,13 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
                 const thread = payload.thread;
                 const oldThread = state.entities[thread.id];
 
-                const newMessages = (oldThread.messages || []).map(
-                    (message) => Object.assign({}, message, { isRead: true })
-                );
-
                 const newThread = Object.assign({}, oldThread, {
-                    messages: newMessages,
+                    messages: payload.messages.filter(message => message.thread.id === thread.id ),
+                    unreadCount: 0,
                 });
 
                 return {
+                    isFetching: false,
                     ids: state.ids,
                     currentThreadId: thread.id,
                     entities: Object.assign({}, state.entities, {
@@ -71,6 +73,10 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
                     }),
                 };
             }
+        case GET_MESSAGES_REQUEST:
+            return Object.assign({}, state, {
+                isFetching: true,
+            });
         default:
             return state;
     }

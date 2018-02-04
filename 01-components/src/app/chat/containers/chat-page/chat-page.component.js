@@ -13,10 +13,9 @@ const ChatPageComponent = {
   templateUrl: template,
   controller: class ChatPageController {
     /* @ngInject */ 
-    constructor ($ngRedux) {
+    constructor ($ngRedux, threadsService) {
         this.$ngRedux = $ngRedux;
-        // const unsubscribe = $ngRedux.connect(this.mapStateToThis, {})(this);
-        this.unsubscribe = $ngRedux.connect(this.mapStateToThis, {})(this);
+        this.unsubscribe = $ngRedux.connect(this.mapStateToThis, threadsService)(this);
     }
 
     $onDestroy () {
@@ -33,16 +32,15 @@ const ChatPageComponent = {
     }
 
     sendMessage (message) {
-      console.log(this.activeThread);
-      this.activeThread.messages.push({
-          author: this.currentUser,
-          text: message,
-          sentAt: new Date(),
-      });
+        this.activeThread.messages.push({
+            author: this.currentUser,
+            text: message,
+            sentAt: new Date(),
+        });
     }
 
-    threadSelected (message) {
-      this.activeThread = _.find( this.channels, { id: message.id });
+    threadSelected (thread) {
+        fetchMessages(thread);
     }
   }
 };

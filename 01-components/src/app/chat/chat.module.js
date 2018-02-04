@@ -10,26 +10,28 @@ import ThreadItemComponent from './components/thread-item/thread-item.component'
 import MessageComponent from './components/message/message.component';
 import MessagesComponent from './components/messages/messages.component';
 import MessageInputComponent from './components/message-input/message-input.component';
+import ThreadsService from './shared/threads/threads.service';
 
 const ChatModule = angular
-  .module('components.chat', [
-    uiRouter
-  ])
-  .config(/*@ngInject*/ ($stateProvider) => {
-    $stateProvider
-      .state('chat', {
-        url: '',
-        component: 'chatPage'
-      })
-  })
-  .directive('matchWindowHeight', MatchWindowHeight)
-  .component('chatPage', ChatPageComponent)
-  .component('teamHeader', TeamHeaderComponent)
-  .component('channelHeader', ChannelHeaderComponent)
-  .component('threadList', ThreadListComponent)
-  .component('threadItem', ThreadItemComponent)
-  .component('messages', MessagesComponent)
-  .component('message', MessageComponent)
-  .component('messageInput', MessageInputComponent);
+    .module('components.chat', [
+        uiRouter
+    ])
+    .config(/*@ngInject*/ ($stateProvider) => {
+        $stateProvider
+            .state('chat', {
+                url: '',
+                component: 'chatPage'
+            })
+    })
+    .directive('matchWindowHeight', MatchWindowHeight)
+    .factory('threadsService', ThreadsService())
+    .component('chatPage', ChatPageComponent)
+    .component('teamHeader', TeamHeaderComponent)
+    .component('channelHeader', ChannelHeaderComponent)
+    .component('threadList', ThreadListComponent)
+    .component('threadItem', ThreadItemComponent)
+    .component('messages', MessagesComponent)
+    .component('message', MessageComponent)
+    .component('messageInput', MessageInputComponent);
 
 export default ChatModule;
