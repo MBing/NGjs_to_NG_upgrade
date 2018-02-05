@@ -3,10 +3,12 @@ import {
     ADD_MESSAGE,
     SELECT_THREAD,
     GET_MESSAGES_REQUEST,
+    POST_MESSAGE_REQUEST,
 } from './threads.actions';
 
 const INITIAL_STATE = {
     isFetching: false,
+    isPosting: false,
     ids: [],
     currentThreadId: null,
     entities: {},
@@ -24,6 +26,7 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
 
                 return {
                     isFetching: false,
+                    isPosting: false,
                     ids: [...state.ids, thread.id],
                     currentThreadId: state.currentThreadId,
                     entities: Object.assign({}, state.entities, {
@@ -36,17 +39,15 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
                 const thread = payload.thread;
                 const message = payload.message;
 
-                const isRead = (message.thread.id === state.currentThreadId) ? true : message.isRead;
-                const newMessage = Object.assign({}, message, { isRead: isRead });
-
                 const oldThread = state.entities[thread.id];
 
                 const newThread = Object.assign({}, oldThread, {
-                    messages: [...(oldThread.messages || []), newMessage]
+                    messages: [...(oldThread.messages || []), message]
                 });
 
                 return {
                     isFetching: false,
+                    isPosting: false,
                     ids: state.ids,
                     currentThreadId: state.currentThreadId,
                     entities: Object.assign({}, state.entities, {
@@ -66,6 +67,7 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
 
                 return {
                     isFetching: false,
+                    isPosting: false,
                     ids: state.ids,
                     currentThreadId: thread.id,
                     entities: Object.assign({}, state.entities, {
@@ -74,9 +76,17 @@ export const ThreadsReducer = (state = INITIAL_STATE, {meta, payload, type}) => 
                 };
             }
         case GET_MESSAGES_REQUEST:
-            return Object.assign({}, state, {
-                isFetching: true,
-            });
+            {
+                return Object.assign({}, state, {
+                    isFetching: true,
+                });
+            }
+        case POST_MESSAGE_REQUEST:
+            {
+                return Object.assign({}, state, {
+                    isPosting: true,
+                });
+            }
         default:
             return state;
     }

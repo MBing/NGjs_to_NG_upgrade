@@ -1,9 +1,8 @@
-import { uuid } from '../utilities/util';
-
 export const ADD_THREAD = 'ADD_THREAD';
 export const SELECT_THREAD = 'SELECT_THREAD';
 export const ADD_MESSAGE = 'ADD_MESSAGE';
 export const GET_MESSAGES_REQUEST = 'GET_MESSAGES_REQUEST';
+export const POST_MESSAGE_REQUEST = 'POST_MESSAGE_REQUEST';
 
 export const addThread = (thread) => ({
     type: ADD_THREAD,
@@ -27,26 +26,23 @@ export const getMessagesRequest = (thread) => ({
     }
 });
 
-export const fetchMessages = (thread) => (dispatch) => {
-    return $http.get('http://localhost:3000/messages/')
-                .then(response => response.data)
-                .then(data => dispatch(selectThread(thread, data)));
-};
+export const postMessageRequest = (thread) => ({
+    type: POST_MESSAGE_REQUEST,
+    payload: {
+        thread
+    }
+});
 
-export const addMessage = (thread, messageArgs) => {
-    const defaults = {
-        id: uuid(),
-        sentAt: new Date(),
-        isRead: false,
-        thread: thread,
-    };
-    const message = Object.assign({}, defaults, messageArgs);
+// export const fetchMessages = (thread) => (dispatch) => {
+//     return $http.get('http://localhost:3000/messages/')
+//                 .then(response => response.data)
+//                 .then(data => dispatch(selectThread(thread, data)));
+// };
 
-    return {
-        type: ADD_MESSAGE,
-        payload: {
-            thread,
-            message,
-        },
-    };
-};
+export const addMessage = (thread, message) => ({
+    type: ADD_MESSAGE,
+    payload: {
+        thread,
+        message,
+    }
+});

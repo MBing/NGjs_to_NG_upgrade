@@ -1,6 +1,7 @@
 <li class="channel"
     ng-class="{ active: $ctrl.active.id == $ctrl.thread.id }">
-  <a href 
+  <a href
+     ui-sref="chat.threads({ type: $ctrl.thread.type, thread: $ctrl.thread.name })"
      ng-click="$ctrl.onThreadSelected({ $event: $ctrl.thread });"
      class="channel-name">
     <span class="prefix glyphicon glyphicon-asterisk"></span>
@@ -8,7 +9,7 @@
       {{ $ctrl.thread.name }}
     </span>
     <span class="unread-highlights"
-          ng-if="$ctrl.unreadCount > 0"
-          >{{ $ctrl.unreadCount }}</span>
+          ng-if="$ctrl.thread.unreadCount > 0"
+          >{{ $ctrl.thread.unreadCount }}</span>
   </a>
 </li>

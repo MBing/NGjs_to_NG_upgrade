@@ -159,7 +159,15 @@ export /*@ngInject*/ function createSampleData($ngRedux) {
   ].map((a) => $ngRedux.dispatch(a));
 
 
-
-
-
+  sendMessageToServer(newFriendsThreadMessage[0].payload.message)
+      .then(() => sendMessageToServer(newUniversalThreadMessage[0].payload.message))
+      .then(() => {
+        [
+            setCurrentUser(nate),
+            ...threads.map((t) => addThread(t)),
+            fetchMessages(
+                threads.find(thread => thread.name === $stateParams.thread)
+            )
+        ].map(a => $ngRedux.dispatch(a));
+      });
 }

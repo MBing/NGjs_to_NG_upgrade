@@ -22,6 +22,10 @@ const ChatModule = angular
                 url: '',
                 component: 'chatPage'
             })
+            .state('chat.threads',{
+                url: '/:type/:thread',
+                component: 'chatPage'
+            })
     })
     .directive('matchWindowHeight', MatchWindowHeight)
     .factory('threadsService', ThreadsService())

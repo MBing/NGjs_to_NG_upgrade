@@ -1,4 +1,5 @@
 import template from './chat-page.html';
+import { createSampleData } from '../../../../../config/sampleData';
 
 import {
     getChannels,
@@ -13,9 +14,14 @@ const ChatPageComponent = {
   templateUrl: template,
   controller: class ChatPageController {
     /* @ngInject */ 
-    constructor ($ngRedux, threadsService) {
+    constructor ($ngRedux, $stateParams, threadsService) {
         this.$ngRedux = $ngRedux;
+        this.$stateParams = $stateParams;
         this.unsubscribe = $ngRedux.connect(this.mapStateToThis, threadsService)(this);
+    }
+
+    $onInit () {
+        createSampleData(this.$ngRedux, this.$stateParams)
     }
 
     $onDestroy () {
@@ -31,12 +37,16 @@ const ChatPageComponent = {
         };
     }
 
-    sendMessage (message) {
-        this.activeThread.messages.push({
-            author: this.currentUser,
-            text: message,
-            sentAt: new Date(),
-        });
+    sendMessage (messageText) {
+        if (messageText.length > 0) {
+            this.postMessage(
+                this.activeThread,
+                {
+                    author: this.currentUser,
+                    text: messageText,
+                }
+            );
+        }
     }
 
     threadSelected (thread) {
