@@ -1,3 +1,5 @@
+## Deprecated !!! The authors of the NG-Book where unable to help and the migration is NOT complete.
+
 # Migration from AngularJS to Angular example APP
 
 Testing how to properly migrate from Angular 1.x to a newer version of Angular +2.
