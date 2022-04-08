@@ -19,7 +19,7 @@
     "angular-messages": "1.6.9",
     "es6-promise": "^4.0.5",
     "isomorphic-fetch": "^2.2.1",
-    "moment": "^2.15.1",
+    "moment": "^2.29.2",
     "ng-redux": "^3.5.2",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
