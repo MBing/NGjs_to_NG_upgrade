@@ -17,7 +17,7 @@
     "angular-ui-router": "^1.0.0-beta.2",
     "es6-promise": "^4.0.5",
     "isomorphic-fetch": "^2.2.1",
-    "moment": "^2.15.1",
+    "moment": "^2.29.4",
     "ng-redux": "^3.4.0-beta.1",
     "react-redux": "^5.0.5",
     "redux": "^3.6.0",
